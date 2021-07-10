@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+models
+*.pkl
+__pycache__
+*.pyc
+env
+venv
+*.png

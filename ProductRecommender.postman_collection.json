@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "c00b8058-be04-48e0-9618-fb3742484e06",
+		"name": "ProductRecommender",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetRecommendedItems",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productids_in_cart\": [\"ZYUZAY1272\", \"HBV00000AX6LR\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/recommend",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"recommend"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
